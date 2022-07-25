@@ -1,7 +1,7 @@
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 0) {
-        maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 50)
-        maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 50)
+        maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 0)
+        maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 0)
     }
     if (receivedNumber == 1) {
         maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 50)
